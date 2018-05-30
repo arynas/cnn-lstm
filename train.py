@@ -39,7 +39,7 @@ batch_size = 128
 num_epochs = 10 #200
 evaluate_every = 100 #100
 checkpoint_every = 100000 #100
-num_checkpoints = 0 #Checkpoints to store
+num_checkpoints = 1 #Checkpoints to store
 
 
 # Misc Parameters
@@ -52,9 +52,9 @@ log_device_placement = False
 # ==================================================
 
 
-filename = "../tweets.csv"
-goodfile = "../good_tweets.csv"
-badfile = "../bad_tweets.csv"
+filename = "tweets.csv"
+goodfile = "good_tweets.csv"
+badfile = "bad_tweets.csv"
 
 
 # Load data
@@ -70,7 +70,7 @@ if (not use_glove):
 else:
     print "Using GloVe"
     embedding_dim = 50
-    filename = '../glove.6B.50d.txt'
+    filename = 'pre-trainer/glove/glove.6B.50d.txt'
     def loadGloVe(filename):
         vocab = []
         embd = []

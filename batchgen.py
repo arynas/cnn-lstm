@@ -129,7 +129,7 @@ def gen_batch(data, batch_size, num_epochs, shuffle=True):
             yield shuffled_data[start_index:end_index]
 
 if __name__ == "__main__":
-    separate_dataset("small.txt");
+    separate_dataset("dataset.csv");
 
 
 #42
