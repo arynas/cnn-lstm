@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # CS291K
 Sentiment Analysis of Twitter data using a combined CNN-LSTM Neural Network model
 
@@ -28,3 +29,7 @@ sudo -H pip install -r requirements.txt
 
 
 
+=======
+# cnn-lstm
+Sentiment Analysis using CNN and LSTM
+>>>>>>> d57cf2bd0c7d71ecacb54387a917fbb2ec51c778
